@@ -1,0 +1,2 @@
+C:\Desarrollos\Projects\BicingGP\WebAngularBicingGP\obj\Debug\WebAngularBicingGP.esproj.SuggestedBindingRedirects.cache
+C:\Desarrollos\Projects\BicingGP\WebAngularBicingGP\obj\Debug\WebAngularBicingGP.esproj.CoreCompileInputs.cache

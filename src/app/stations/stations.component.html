@@ -1,0 +1,29 @@
+<div class="tabla-general-bootstrap">
+
+    <div class="row">
+      <div class="col-12">
+        <div class="tituloSeccion">
+            Estaciones de Bicing
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        Total estaciones {{ stations.length}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div *ngFor="let station of stations">
+          <a
+            [routerLink]="[GetLink(station)]"
+            [title]="'Ver detalles de estación ' + station.address">
+            {{ station.id}} {{ station.address}}
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
